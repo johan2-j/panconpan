@@ -21,6 +21,7 @@ namespace panconpan
                 i = 1;
                 mundo.BackColor = Color.Blue;
             }
+            //lll
         }
     }
 }

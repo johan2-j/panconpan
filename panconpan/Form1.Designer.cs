@@ -30,6 +30,8 @@
         {
             button1 = new Button();
             mundo = new Panel();
+            label1 = new Label();
+            button2 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -49,21 +51,44 @@
             mundo.Size = new Size(289, 182);
             mundo.TabIndex = 1;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(198, 4);
+            label1.Name = "label1";
+            label1.Size = new Size(72, 15);
+            label1.TabIndex = 2;
+            label1.Text = "hola mundo";
+            // 
+            // button2
+            // 
+            button2.Location = new Point(15, 183);
+            button2.Name = "button2";
+            button2.Size = new Size(86, 78);
+            button2.TabIndex = 3;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
+            Controls.Add(label1);
             Controls.Add(mundo);
             Controls.Add(button1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "hola mundo";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button button1;
         private Panel mundo;
+        private Label label1;
+        private Button button2;
     }
 }
