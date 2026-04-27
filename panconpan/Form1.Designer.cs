@@ -36,9 +36,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(176, 224);
+            button1.Location = new Point(327, 478);
+            button1.Margin = new Padding(6, 6, 6, 6);
             button1.Name = "button1";
-            button1.Size = new Size(282, 115);
+            button1.Size = new Size(524, 245);
             button1.TabIndex = 0;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
@@ -46,26 +47,29 @@
             // 
             // mundo
             // 
-            mundo.Location = new Point(169, 26);
+            mundo.Location = new Point(314, 55);
+            mundo.Margin = new Padding(6, 6, 6, 6);
             mundo.Name = "mundo";
-            mundo.Size = new Size(289, 182);
+            mundo.Size = new Size(537, 388);
             mundo.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(198, 4);
+            label1.Location = new Point(368, 9);
+            label1.Margin = new Padding(6, 0, 6, 0);
             label1.Name = "label1";
-            label1.Size = new Size(72, 15);
+            label1.Size = new Size(144, 32);
             label1.TabIndex = 2;
             label1.Text = "hola mundo";
             // 
             // button2
             // 
             button2.BackColor = Color.Blue;
-            button2.Location = new Point(489, 127);
+            button2.Location = new Point(-23, 153);
+            button2.Margin = new Padding(6, 6, 6, 6);
             button2.Name = "button2";
-            button2.Size = new Size(182, 160);
+            button2.Size = new Size(338, 341);
             button2.TabIndex = 3;
             button2.Text = "button2";
             button2.UseVisualStyleBackColor = false;
@@ -73,13 +77,14 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(738, 351);
+            ClientSize = new Size(1371, 749);
             Controls.Add(button2);
             Controls.Add(label1);
             Controls.Add(mundo);
             Controls.Add(button1);
+            Margin = new Padding(6, 6, 6, 6);
             Name = "Form1";
             Text = "hola mundo";
             ResumeLayout(false);
